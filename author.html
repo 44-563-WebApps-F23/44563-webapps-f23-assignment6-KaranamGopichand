@@ -39,6 +39,36 @@ function checkAuthor(){
        
     }
     output.innerHTML ="good count" +good+" oops count "+oops
+    out.style.color="#ff0000"
+}
+ </script>
+ <h5 class = "display-6">Cities</h5>
+ <div class= "image-container">
+     <img src="kansas.jpeg" alt="kansas" height="100" weight="100" onclick="selectImage()" id="image">
+ </div>
+
+</script>
+
+4
+<script>
+    let useimage=1
+    function selectImage(){
+        switch(useimage){
+            case1:
+            document.getElementById("image").src="Kansas.jpeg";
+            useimage+=1;
+            break;
+            case2:
+            document.getElementById("image").src="albany.jpeg";
+            useimage+=1;
+            break;
+            case3:
+            document.getElementById("image").src="riverside.jpeg";
+            useimage+=1;
+            break;
+            default:
+            document.getElementById("image").src="Kansas.jpeg";
+        }
 }
 </script>
 
